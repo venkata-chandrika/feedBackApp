@@ -38,6 +38,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 20px;
 }
 .button {
   outline: none;
@@ -76,6 +77,8 @@ body {
 .feedback-response {
   color: #1e293b;
   font-size: 18px;
+  text-align: center;
+  width: 80%;
 }
 
 @media screen and (min-width: 768px) {
@@ -88,5 +91,8 @@ body {
   .love-emoji {
     width: 70px;
     height: 70px;
+  }
+  .feedback-response {
+    width: 70%;
   }
 }
