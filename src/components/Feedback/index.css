@@ -28,17 +28,13 @@ body {
   color: #0f172a;
   font-size: 38px;
   max-width: 70%;
+  align-items: center;
 }
 .emoji-container {
   display: flex;
   list-style-type: none;
-}
-.emoji-list {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin: 20px;
+  justify-content: space-between;
+  width: 50%;
 }
 .button {
   outline: none;
@@ -48,8 +44,6 @@ body {
 }
 .emoji {
   width: 85px;
-  margin-right: 10px;
-  margin-bottom: 10px;
 }
 
 .emoji-type {
@@ -81,6 +75,15 @@ body {
   width: 80%;
 }
 
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+  .emoji {
+    width: 30px;
+    margin-left: 10px;
+  }
+}
 @media screen and (min-width: 768px) {
   .heading {
     font-size: 46px;
